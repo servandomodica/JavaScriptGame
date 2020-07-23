@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evaluación Final - Superliga</title>
+    <link rel="stylesheet" href="css/estilo.css">
+	<link href="favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+
+
+<body>
+
+<script type="text/javascript" src="js/jquery341min.js"></script>
+<script type="text/javascript" src="js/evaluacionFinal.js"></script>
+
+</br></br>
+
+<h1>EQUIPOS DE LA <span>SUPERLIGA 2020</span></h1>
+
+
+<div class="divis" id="saludos">
+</div>
+
+
+<div id="play">
+</br></br>
+<img id="horacio" src="css/horaciopagani.jpg">
+</br>
+<form action="#" method="POST" id='form000' name='form000'>
+	<input type="button" name="start" id="start" value="JUGAR YA!" onclick="jugar()"></input>
+</form>
+
+</div>
+
+</br></br>
+
+<div class="divis" id="001">
+<form action="#" method="POST" id='form001' name='form001'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td001" name="td001" src="escudosJPGedit/afa.jpg"></td>
+		<td class="desplegable" id="seleccion">
+			<select name="seleccion" onchange="comprobar1()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="002">
+<form action="#" method="POST" id='form002' name='form002'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td002" name="td002" src="escudosJPGedit/defensa.jpg"></td>
+		<td class="desplegable" id="defensa">
+			<select name="defensa" onchange="comprobar2()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="003">
+<form action="#" method="POST" id='form003' name='form003'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td003" name="td003" src="escudosJPGedit/lanus.jpg"></td>
+		<td class="desplegable" id="lanus">
+			<select name="lanus" onchange="comprobar3()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="004">
+<form action="#" method="POST" id='form004' name='form004'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td004" name="td004" src="escudosJPGedit/colon.jpg"></td>
+		<td class="desplegable" id="colon">
+			<select name="colon" onchange="comprobar4()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="005">
+<form action="#" method="POST" id='form005' name='form005'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td005" name="td005" src="escudosJPGedit/racing.jpg"></td>
+		<td class="desplegable" id="racing">
+			<select name="racing" onchange="comprobar5()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="006">
+<form action="#" method="POST" id='form006' name='form006'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td006" name="td006" src="escudosJPGedit/arsenal.jpg"></td>
+		<td class="desplegable" id="arsenal">
+			<select name="arsenal" onchange="comprobar6()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="007">
+<form action="#" method="POST" id='form007' name='form007'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td007" name="td007" src="escudosJPGedit/independiente.jpg"></td>
+		<td class="desplegable" id="independiente">
+			<select name="independiente" onchange="comprobar7()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="008">
+<form action="#" method="POST" id='form008' name='form008'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td008" name="td008" src="escudosJPGedit/rosario.jpg"></td>
+		<td class="desplegable" id="rosario">
+			<select name="rosario" onchange="comprobar8()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="009">
+<form action="#" method="POST" id='form009' name='form009'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td009" name="td009" src="escudosJPGedit/banfield.jpg"></td>
+		<td class="desplegable" id="banfield">
+			<select name="banfield" onchange="comprobar9()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="010">
+<form action="#" method="POST" id='form010' name='form010'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td010" name="td010" src="escudosJPGedit/huracan.jpg"></td>
+		<td class="desplegable" id="huracan">
+			<select name="huracan" onchange="comprobar10()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="011">
+<form action="#" method="POST" id='form011' name='form011'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td011" name="td011" src="escudosJPGedit/aldosivi.jpg"></td>
+		<td class="desplegable" id="aldosivi">
+			<select name="aldosivi" onchange="comprobar11()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="012">
+<form action="#" method="POST" id='form012' name='form012'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td012" name="td012" src="escudosJPGedit/newells.jpg"></td>
+		<td class="desplegable" id="newells">
+			<select name="newells" onchange="comprobar12()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="013">
+<form action="#" method="POST" id='form013' name='form013'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td013" name="td013" src="escudosJPGedit/river.jpg"></td>
+		<td class="desplegable" id="river">
+			<select name="river" onchange="comprobar13()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="014">
+<form action="#" method="POST" id='form014' name='form014'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td014" name="td014" src="escudosJPGedit/talleres.jpg"></td>
+		<td class="desplegable" id="talleres">
+			<select name="talleres" onchange="comprobar14()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="015">
+<form action="#" method="POST" id='form015' name='form015'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td015" name="td015" src="escudosJPGedit/argentinos.jpg"></td>
+		<td class="desplegable" id="argentinos">
+			<select name="argentinos" onchange="comprobar15()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="016">
+<form action="#" method="POST" id='form016' name='form016'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td016" name="td016" src="escudosJPGedit/godoy.jpg"></td>
+		<td class="desplegable" id="godoy">
+			<select name="godoy" onchange="comprobar16()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="017">
+<form action="#" method="POST" id='form017' name='form017'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td017" name="td017" src="escudosJPGedit/velez.jpg"></td>
+		<td class="desplegable" id="velez">
+			<select name="velez" onchange="comprobar17()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="018">
+<form action="#" method="POST" id='form018' name='form018'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td018" name="td018" src="escudosJPGedit/atletico.jpg"></td>
+		<td class="desplegable" id="atletico">
+			<select name="atletico" onchange="comprobar18()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="019">
+<form action="#" method="POST" id='form019' name='form019'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td019" name="td019" src="escudosJPGedit/union.jpg"></td>
+		<td class="desplegable" id="union">
+			<select name="union" onchange="comprobar19()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="020">
+<form action="#" method="POST" id='form020' name='form020'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td020" name="td020" src="escudosJPGedit/patronato.jpg"></td>
+		<td class="desplegable" id="patronato">
+			<select name="patronato" onchange="comprobar20()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="021">
+<form action="#" method="POST" id='form021' name='form021'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td021" name="td021" src="escudosJPGedit/sanlorenzo.jpg"></td>
+		<td class="desplegable" id="sanlorenzo">
+			<select name="sanlorenzo" onchange="comprobar21()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="022">
+<form action="#" method="POST" id='form022' name='form022'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td022" name="td022" src="escudosJPGedit/gimnasia.jpg"></td>
+		<td class="desplegable" id="gimnasia">
+			<select name="gimnasia" onchange="comprobar22()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="023">
+<form action="#" method="POST" id='form023' name='form023'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td023" name="td023" src="escudosJPGedit/central.jpg"></td>
+		<td class="desplegable" id="central">
+			<select name="central" onchange="comprobar23()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="024">
+<form action="#" method="POST" id='form024' name='form024'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td024" name="td024" src="escudosJPGedit/estudiantes.jpg"></td>
+		<td class="desplegable" id="estudiantes">
+			<select name="estudiantes" onchange="comprobar24()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="025">
+<form action="#" method="POST" id='form025' name='form025'>
+<center>
+<table>
+	<tr>
+		<td class="escudos"><img id="td025" name="td025" src="escudosJPGedit/boca.jpg"></td>
+		<td class="desplegable" id="boca">
+			<select name="boca" onchange="comprobar25()">
+				<option value="elegir">▼ ELEGIR</option>
+				<option value="selecc">Selección nacional</option>
+				<option value="aldosivi">Aldosivi</option>
+				<option value="argentinos">Argentinos Jrs.</option>
+				<option value="arsenal">Arsenal</option>
+				<option value="atletico">Atlético T.</option>
+				<option value="banfield">Banfield</option>
+				<option value="boca">Boca Jrs.</option>
+				<option value="central">Central Córdoba S.E.</option>
+				<option value="colon">Colón S.F.</option>
+				<option value="defensa">Defensa y Justicia</option>
+				<option value="estudiantes">Estudiantes L.P.</option>
+				<option value="gimnasia">Gimnasia L.P.</option>
+				<option value="godoy">Godoy Cruz</option>
+				<option value="huracan">Huracán</option>
+				<option value="independiente">Independiente</option>
+				<option value="lanus">Lanús</option>
+				<option value="newells">Newell's Old Boys</option>
+				<option value="patronato">Patronato</option>
+				<option value="racing">Racing Club</option>
+				<option value="river">River Plate</option>
+				<option value="rosario">Rosario Central</option>
+				<option value="sanlorenzo">San Lorenzo</option>
+				<option value="talleres">Talleres de Córdoba</option>
+				<option value="union">Unión S.F.</option>
+				<option value="velez">Vélez Sarsfield</option>			
+			</select>		
+		</td>
+	</tr>
+</table>
+</center>
+</form>
+</div>
+
+
+<div class="divis" id="026">
+</br></br>
+<form action="#" method="POST" id='form026' name='form026'>
+	<input type="button" name="result" id="result" value="VER RESULTADOS" onclick="resultados()"></input>
+</form>
+</div>
+
+</br></br>
+
+<div class="divis" id="resultados">
+</div>
+
+</br></br>
+
+<div class="divis" id="formuFinal">
+
+<form id="informacion" name="informacion" action="#" method="post">
+<center>
+<table>
+
+	<tr>
+		<td class="colder" colspan=2><h3><span>¡</span>GRACIAS POR PARTICIPAR<span>!</span></br>Por favor contanos un poco sobre vos...</h4></td>
+	</tr>
+	
+	<tr>
+		<td colspan=2><hr></td>
+	</tr>
+
+	<tr>
+		<td class="colizq">Nombre<span>*</span></td>
+		<td class="colder"><input type="text" name="nombre" id="nombre" placeholder="Ej.: Andrés" size=65 minlength=2 maxlength=65 pattern="[A-Za-z]{2,65}" onclick="Aviso()" required></td>
+	</tr>
+
+	<tr>
+		<td class="colizq">Apellido<span>*</span></td>
+		<td class="colder"><input type="text" name="apellido" id="apellido" placeholder="Ej.: Módica" size=65 minlength=2 maxlength=65 pattern="[A-Za-z]{2,65}" onclick="Aviso()" required></td>
+	</tr>
+
+	<tr>
+		<td class="colizq">E-mail<span>*</span></td>
+		<td class="colder"><input type="email" name="casilla" id="casilla" placeholder="Ej.: andy32@gmail.com" size=65 minlength=3 maxlength=65 onclick="Aviso()" required></td>
+	</tr>
+	
+	<tr>
+		<td class="colizq">Fecha de nacimiento**</td>
+		<td class="colder"><input type="date" name="fecha" size=65 onclick="AvisoFecha()"></td>
+	</tr>
+
+	<tr>
+		<td class="colizq">¿Te gustó el juego?**</td>
+		<td class="colder">
+			<textarea name="comment" col=20 rows=3 placeholder="Tu equipo favorito, comentarios, consultas, sugerencias..." onclick="AvisoComment()"></textarea>
+		</td>
+	</tr>
+
+	<tr>
+		<td class="final">
+			<input type="reset" name="limpiar" id="reset" value="Limpiar datos" onclick="Limpiar()">
+		</td>
+		<td class="final">
+			<input type="button" name="enviar" id="enviar" value="Enviar">
+		</td>
+	</tr>
+	
+</table>
+</center>
+</form>
+
+</br>
+<div id="agregado">
+</div>
+
+</br>
+<div id="errores">
+</div>
+
+</div>
+
+
+</body>
+</html>

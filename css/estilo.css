@@ -1,0 +1,43 @@
+*{margin:auto; padding:0px; text-align:center; font-family:arial; border-radius:10px;}
+
+body{padding:10px 20px;}
+
+h1{color:#FFFFFF; background-color:#20ffff; padding:10px; border-radius:20px; width:0px; opacity:0;}
+h1 span{color:yellow;}
+
+.divis{width:500px;}
+
+#saludos{background:#20ffff; font-size:15px; border-radius:20px; margin-top:20px; width:0px; opacity:0;}
+#saludos span{color:yellow;}
+#saludos h3{color:white;}
+
+#form000 input{padding:45px; background:#20ffff; font-size:15px; border-radius:20px; color:white; font-weight:bold;}
+#form000 input:hover{padding:39px 18px 39px 18px; font-size:25px; color:yellow;}
+#horacio{border-radius:20px; width:175px;}
+#horacio:hover{width:0px;}
+
+#form026 input{padding:45px; background:#20ffff; font-size:15px; border-radius:20px; color:white; font-weight:bold;}
+#form026 input:hover{color:yellow;}
+
+#resultados{color:white; background:#20ffff; font-size:15px; border-radius:20px; width:650px; padding:20px;}
+#resultados span{color:yellow;}
+#result{padding:5px;}
+
+#informacion form{width:700px; height:700px;}
+
+#formuFinal{width:750px;}
+#formuFinal span{color:red; font-weight:bold; font-style:italic;}
+
+#formuFinal form table{width:700px; margin:auto; border:4px solid #F4FFBC; border-collapse:collapse;}
+#formuFinal form table td{border:4px solid #F4FFBC;}
+
+#formuFinal input{padding:5px; border-radius:20px;}
+textarea{width:500px;}
+
+.colizq{background:#EEEEEE; font-weight:bold; font-size:14px; padding:5px;}
+.colder{background:#F4FFBC; font-size:14px; padding:5px;}
+
+.final{background:#20ffff; padding:5px;}
+
+#agregado{font-style:italic; text-align:right; background:#F4FFBC; width:500px; margin-left:210px;}
+#errores{font-style:italic; color:gray; text-align:right; background:#ffdddd; width:500px; margin-left:210px;}
